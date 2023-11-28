@@ -40,7 +40,7 @@ use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devico
 	-- Telescope
 	use({
 		"nvim-telescope/telescope.nvim",
-		tag = "0.1.2",
+		tag = "0.1.5",
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
 
