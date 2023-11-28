@@ -48,6 +48,7 @@ hi! link StatusLine Normal
 hi! link StatusLineNC Normal
 set statusline=%{repeat('─',winwidth('.'))}
 ]])
+-- Float Terminal
 vim.cmd([[ let g:floaterm_keymap_new = '<F7>' ]])
 vim.cmd([[ let g:floaterm_keymap_prev   = '<F8>' ]])
 vim.cmd([[ let g:floaterm_keymap_next   = '<F9>' ]])
