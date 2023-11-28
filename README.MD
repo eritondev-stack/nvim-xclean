@@ -67,6 +67,7 @@
 - [hrsh7th/cmp-buffer:](https://github.com/hrsh7th/cmp-buffer) nvim-cmp source for buffer words
 - [williamboman/mason-lspconfig.nvim:](https://github.com/williamboman/mason-lspconfig.nvim) Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.
 - [voldikss/vim-floaterm:](https://github.com/voldikss/vim-floaterm) Extension float terminal.
+- [akinsho/bufferline.nvim:](https://github.com/akinsho/bufferline.nvim) Extension buffer line in top page.
 
 
 

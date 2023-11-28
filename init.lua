@@ -10,8 +10,15 @@ else
 	return
 end
 
+
+
 require('telescope').setup({
     defaults = {
         file_ignore_patterns = { '^node_modules/','%node_modules/' },
     }
 })
+
+vim.opt.termguicolors = true
+require("bufferline").setup{}
+
+

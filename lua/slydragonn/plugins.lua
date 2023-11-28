@@ -33,6 +33,10 @@ use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
 use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
 
+-- Bufferline
+use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+
+
 	-- Telescope
 	use({
 		"nvim-telescope/telescope.nvim",
