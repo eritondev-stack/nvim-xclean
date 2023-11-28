@@ -28,18 +28,10 @@ return require("packer").startup(function(use)
 		requires = { "nvim-web-devicons" },
 	})
 
-	-- Treesitter
-	use({
-		"nvim-treesitter/nvim-treesitter",
-		run = function()
-			require("nvim-treesitter.install").update({ with_sync = true })
-		end,
-		config = function()
-			require("slydragonn.configs.treesitter")
-		end,
-	})
+  -- Treesitter
+use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
-	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
+use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
 
 	-- Telescope
 	use({
